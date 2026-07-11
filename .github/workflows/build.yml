@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@88db5f34fe206fc0f8c243dcbb0b532cdd63c68b
 
   create_release_master:
     if: github.event_name == 'push' && github.ref == 'refs/heads/master'
